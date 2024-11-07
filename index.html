@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/styles.css" />
+    <link rel="shortcut icon" href="/img/eveFlower.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=self_improvement" />
+    <title>Eve Blossom</title>
+  </head>
+
+  <body>
+    <!-- 
+    Your product landing page should have a header element with a corresponding id="header"
+    
+    You can see an image within the header element with a corresponding id="header-img" (A logo would make a good image here)
+    
+    Within the #header element, you can see a nav element with a corresponding id="nav-bar"
+    
+    You can see at least three clickable elements inside the nav element, each with the class nav-link
+    
+    When you click a .nav-link button in the nav element, you are taken to the corresponding section of the landing page
+    -->
+    <header id="header" class="header">
+      <div class="ship-info"><p>Free Shipment</p></div>
+
+      <!-- The navbar should always be at the top of the viewport -->
+      <nav class="nav-bar" id="nav-bar">
+        <ul>
+          <li><a class="nav-link" href="#top">Home</a></li>
+          <li><a class="nav-link" href="#gallery">Gallery</a></li>
+          <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
+          <li><a class="nav-link" href="#shop-now">Shop</a></li>
+          <li><a class="nav-link" href="#subscrive">Subscribe</a></li>
+        </ul>
+      </nav>
+
+      <figure class="logo">
+        <img
+          class="logo"
+          id="header-img"
+          src="img/logo.png"
+          alt="Eve Bloom Logo"
+          width="480"
+          height="87" />
+      </figure>
+    </header>
+
+    <main class="main-content container" id="top">
+      <section class="banner">
+        <h2>
+          <span class="nowrap">Embrace the beauty of nature. </span>
+
+          <span class="nowrap">Rediscover your skin’s radiance.</span>
+        </h2>
+        <figure>
+          <img src="img/img-banner.jpg" alt="" width="3064" height="2224" />
+        </figure>
+        <div class="banner-text">
+          <h2>
+            At-Home<br />
+            Spa Experience
+          </h2>
+          <p>
+            No need for expensive treatments —
+            <span class="nowrap">Gua Sha</span> lets you enjoy the benefits of a
+            spa facial right from home, at a fraction of the cost.
+          </p>
+        </div>
+      </section>
+
+      <section id="gallery" class="img-gallery-container">
+        <figure class="gallery img1">
+          <img
+            class="img1"
+            src="img/img1.jpg"
+            alt=""
+            width="500"
+            height="500"
+            loading="lazy" />
+        </figure>
+        <figure class="gallery img2">
+          <img
+            class="img2"
+            src="img/img2.jpg"
+            alt=""
+            width="500"
+            height="500"
+            loading="lazy" />
+        </figure>
+
+        <figure class="gallery img3">
+          <img
+            class="img3"
+            src="img/img3.jpg"
+            alt=""
+            width="100"
+            height="100"
+            loading="lazy" />
+        </figure>
+        <figure class="gallery img4">
+          <img
+            class="img4"
+            src="img/img4.jpg"
+            alt=""
+            width="100"
+            height="100"
+            loading="lazy" />
+        </figure>
+        <figure class="gallery img5">
+          <img
+            class="img5"
+            src="img/img5.jpg"
+            alt=""
+            width="100"
+            height="100"
+            loading="lazy" />
+        </figure>
+      </section>
+
+      <!-- You can watch an embedded product video with id="video" -->
+      <section class="how-it-works" id="how-it-works">
+        <p>
+          <span class="bold"> Gua Sha </span>
+          works through a combination of gentle pressure and specific massage
+          techniques to stimulate blood flow, relieve muscle tension, and
+          promote lymphatic drainage.
+        </p>
+        <p>Here’s a breakdown of how it works and the benefits it brings:</p>
+
+        <iframe
+          id="video"
+          width="1878"
+          height="745"
+          src="https://www.youtube.com/embed/6aw-fJF59Q4"
+          title="Gua Sha For Beginners - Follow Along Tutorial"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen></iframe>
+      </section>
+
+      <section id="shop-now" class="shop-now">
+        <div class="card">
+          <figure>
+            <img
+              class="img-card"
+              src="img/celestial-pearl.jpg"
+              alt=""
+              width="1600"
+              height="2000" />
+          </figure>
+
+          <div class="main-card">
+            <p class="jade-name">Celestial Pearl</p>
+            <button class="button" type="button" value="Shop Now">
+              Shop Now
+            </button>
+            <p class="content">
+              Bringing a fresh, natural glow to your skin by encouraging blood
+              flow and helping oxygen reach deeper layers.
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <figure>
+            <img
+              class="img-card"
+              src="img/forest-glow.jpg"
+              alt=""
+              width="1600"
+              height="2000" />
+          </figure>
+
+          <div class="main-card">
+            <p class="jade-name">Florest Glow</p>
+            <button class="button" type="button" value="Shop Now">
+              Shop Now
+            </button>
+            <p class="content">
+              This self-care ritual is incredibly calming, perfect for winding
+              down after a long day. Gua Sha provides a gentle facial massage
+              that soothes the skin and relaxes the mind.
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <figure>
+            <img
+              class="img-card"
+              src="img/dusky-rose.jpg"
+              alt=""
+              width="1600"
+              height="2000" />
+          </figure>
+
+          <div class="main-card">
+            <p class="jade-name">Dusky Rose</p>
+            <button class="button" type="button" value="Shop Now">
+              Shop Now
+            </button>
+            <p class="content">
+              Gua Sha massage relaxes facial muscles and releases stored
+              tension, which can help reduce the appearance of fine lines and
+              soften expression lines naturally.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Your landing page has a form element with a corresponding id="form"
+      Within the form, there is an input field with id="email" where you can enter an email address
+      The #email input field should have placeholder text to let users know what the field is for
+      The #email input field uses HTML5 validation to confirm that the entered text is an email address
+      Within the form, there is a submit input with a corresponding id="submit"
+      When you click the #submit element, the email is submitted to a static page (use this mock URL: https://www.freecodecamp.com/email-submit) -->
+      <section id="subscrive" class="form-container">
+        <h2>Subscribe to our emails</h2>
+        <p>Join our email list for exclusive offers and the latest news.</p>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <label for="email">Email: </label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="email"
+            placeholder="Please enter your email here"
+            pattern="^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$"
+            required />
+          <input class="submit" id="submit" type="submit" value="Subscribe" />
+          <!-- <button class="submit" id="submit" type="submit">Subscribe</button> -->
+        </form>
+      </section>
+    </main>
+
+    <aside class="sidebar"></aside>
+
+    <footer class="footer">Eve Blossom &copy; 2024</footer>
+  </body>
+</html>
