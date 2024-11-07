@@ -1,6 +1,6 @@
 **Product Landing Page**: a project as part of the [FreeCodeCamp](https://www.freecodecamp.org/learn/2022/responsive-web-design/) curriculum.<br>
-Through this project, I learned how to build a professional landing page designed to effectively showcase a product or service.
-[Eve Blossom](https://html-preview.github.io/?url=) Landing Page
+Through this project, I learned how to build a professional landing page designed to effectively showcase a product or service.<br>
+[Eve Blossom](https://html-preview.github.io/?url=https://github.com/pfdev2519/eve-blossom/blob/main/index.html) Landing Page
 
 ### Here’s what I did:
 
